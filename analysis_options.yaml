@@ -1,1 +1,8 @@
-include: package:flutter_lints/flutter.yaml
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  - prefer_match_file_name
+
+

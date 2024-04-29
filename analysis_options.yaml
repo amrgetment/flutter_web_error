@@ -3,6 +3,5 @@ analyzer:
     - custom_lint
 
 custom_lint:
-  - prefer_match_file_name
-
-
+  rules:
+    - prefer_match_file_name
